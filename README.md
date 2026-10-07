@@ -1,5 +1,7 @@
 # WashMom Vision
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 Kıyafet fotoğrafından kumaş sınıfı (EfficientNetV2B0) ve renk grubu (OpenCV) çıkarıp açıklanabilir kurallarla yıkama grubu öneren görüntü işleme projesi.
 
 > Ticari amaç gütmeyen bir **öğrenme projesidir**. Lisans: [CC BY-NC 4.0](LICENSE) (telif ve veri seti notu: [NOTICE](NOTICE)). Ticari kullanım yasaktır (ayrıntılar: [Lisans](#lisans)).
