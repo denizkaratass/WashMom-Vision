@@ -2,7 +2,7 @@
 
 Kıyafet fotoğrafından kumaş sınıfı (EfficientNetV2B0) ve renk grubu (OpenCV) çıkarıp açıklanabilir kurallarla yıkama grubu öneren görüntü işleme projesi.
 
-> Ticari amaç gütmeyen bir **öğrenme projesidir**. Lisans: [CC BY-NC 4.0](LICENSE). Ticari kullanım yasaktır (ayrıntılar: [Lisans](#lisans)).
+> Ticari amaç gütmeyen bir **öğrenme projesidir**. Lisans: [CC BY-NC 4.0](LICENSE) (telif ve veri seti notu: [NOTICE](NOTICE)). Ticari kullanım yasaktır (ayrıntılar: [Lisans](#lisans)).
 
 ## Sonuçlar (test seti, 3.231 garment crop)
 
@@ -132,5 +132,7 @@ Bu veri setini kullanırsanız lütfen orijinal çalışmaya atıf yapın:
 - **Model (`models/effnet_sqrt_finetuned.keras`):** DeepFashion-MultiModal'dan türetilmiştir. Veri setinin sözleşmesi gereği türetilmiş veriler de ticari amaçla kullanılamaz.
 - **Veri seti:** Bu repoya ve bu lisansa dahil değildir. Görüntülerin ve etiketlerin hakları sahiplerine aittir. Bu proje veri setinin yazarlarıyla bağlantılı değildir ve onlar tarafından onaylanmamıştır.
 - **EfficientNetV2B0 ImageNet ağırlıkları:** Keras / TensorFlow (Apache 2.0).
+
+Telif satırı ve veri seti notunun tam hâli [NOTICE](NOTICE) dosyasındadır.
 
 Bir hak sahibi olarak bu repodaki herhangi bir içeriğe itirazınız varsa lütfen bir GitHub issue açın; içerik kaldırılacaktır.

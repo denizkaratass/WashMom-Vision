@@ -3,7 +3,7 @@
 # Gerekli:   models/effnet_sqrt_finetuned.keras  (repoda hazır)
 # Notebook'un 21. bölümüyle aynı adımlar: GrabCut maske -> crop -> JPEG -> EfficientNet -> renk -> kural motoru
 # Model DeepFashion-MultiModal ile eğitildi: https://github.com/yumingj/DeepFashion-MultiModal (Jiang et al., Text2Human, SIGGRAPH 2022; yalnızca ticari olmayan kullanım)
-# Lisans: CC BY-NC 4.0 (LICENSE dosyasına bakın) - ticari kullanım yasaktır.
+# Lisans: CC BY-NC 4.0 (LICENSE ve NOTICE dosyalarına bakın) - ticari kullanım yasaktır.
 import sys, os, json
 import numpy as np
 import cv2
