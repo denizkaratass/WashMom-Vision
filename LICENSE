@@ -1,0 +1,37 @@
+WashMom Vision
+Copyright (c) 2026 Deniz Karataş
+
+This project (source code, notebook, trained model weights and the photos in
+my_photos/) is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License (CC BY-NC 4.0).
+Full license text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+You are free to share and adapt this material for NON-COMMERCIAL purposes,
+provided that you give appropriate credit. Commercial use is not permitted.
+
+-------------------------------------------------------------------------------
+Third-party dataset notice
+-------------------------------------------------------------------------------
+The model in models/ was trained on the DeepFashion-MultiModal dataset
+(https://github.com/yumingj/DeepFashion-MultiModal). The dataset is NOT
+included in this repository and is NOT covered by this license; its images
+and annotations belong to their respective owners.
+
+Per the dataset agreement, the dataset is available for non-commercial
+research purposes only, and no portion of its images or of data derived from
+it (including the trained model weights in this repository) may be used for
+commercial purposes. To obtain the dataset, download it from the official
+page and accept its terms.
+
+This project is not affiliated with or endorsed by the dataset authors.
+
+Dataset citation:
+Yuming Jiang, Shuai Yang, Haonan Qiu, Wayne Wu, Chen Change Loy, Ziwei Liu.
+"Text2Human: Text-Driven Controllable Human Image Generation."
+ACM Transactions on Graphics (TOG), 41(4), 2022. doi:10.1145/3528223.3530104
+
+-------------------------------------------------------------------------------
+Pretrained weights
+-------------------------------------------------------------------------------
+The EfficientNetV2B0 backbone was initialized with ImageNet weights provided
+by Keras / TensorFlow (Apache License 2.0).

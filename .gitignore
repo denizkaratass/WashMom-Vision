@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+__pycache__/
+
+# Veri seti lisans gereği repoya konmaz (yanlışlıkla eklenmesin)
+data_raw/
+processed/
+outputs/
+*.zip
