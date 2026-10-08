@@ -17,6 +17,7 @@ Kıyafet fotoğrafından kumaş sınıfı (EfficientNetV2B0) ve renk grubu (Open
 - 6 kumaş sınıfı: cotton, denim, chiffon, knitted, leather, furry (ciddi sınıf dengesizliği → ana metrik Macro F1).
 - Ürün numarası bazlı split: train / validation / test arasında ortak ürün yok (data leakage kontrolü).
 - Confidence eşiği 0,55: kararların %90,6'sı otomatik (%86,6 doğru), %9,4'ü kullanıcıya soruluyor.
+- Sınırlılık (closed-set): model yalnızca bu 6 sınıfla eğitildiği için kıyafet olmayan görüntüleri reddedemez, en yakın sınıfı tahmin eder. Softmax güveni sadece 6 sınıf arasında göreceli olduğundan böyle girdilerde bile yüksek çıkabilir (ör. bir duvar fotoğrafı %93 güvenle cotton tahmin edildi); confidence eşiği bunu yakalayamaz.
 
 Örnek çıktı:
 
